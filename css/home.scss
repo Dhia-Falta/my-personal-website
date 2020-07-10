@@ -1,0 +1,15 @@
+
+@import 'sass/helpers/functions';
+@import 'sass/helpers/mixins';
+@import 'sass/helpers/variables';
+
+@import 'sass/base/base';
+@import "sass/base/typography";
+@import "sass/base/utilities";
+
+@import 'sass/components/heading';
+@import 'sass/components/button';
+
+@import 'sass/layout/navbar';
+@import 'sass/sections/home';
+@import 'sass/layout/footer';

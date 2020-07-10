@@ -1,0 +1,52 @@
+
+/* extend*/
+
+/*flaot*/
+.fl-left{
+	float: $fl-left;
+}
+.fl-right{
+	float: $fl-right;
+}
+/* sections padding and margin*/
+%padding{
+	padding: 4% 0;
+}
+
+%bg-size-cover{
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.big-marg-bot{
+	margin-bottom: 5% !important;
+}
+.md-marg-bot{
+	margin-bottom: 3.5% !important;
+}
+.xs-marg-bot{
+	margin-bottom: 0.5%;
+}
+%programming{
+	background-color: #dedede;
+	height: 10px;
+	width: 100%;
+	border-radius: 15px;
+	margin-top: 1.5%;
+	border: 1px solid #c7c7c7;
+    overflow: hidden;
+}
+
+%programming-span{
+	height: 8px;
+	display: block;
+	border-radius: 15px;
+}
+@keyframes moveToBottom {
+	0% {
+		bottom: 0;
+	}
+}
+

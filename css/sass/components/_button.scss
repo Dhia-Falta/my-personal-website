@@ -1,0 +1,48 @@
+/*gradient button */
+.gradient-btn{
+	width: auto;
+    padding: 1.5% 3.9%;
+    margin-bottom: 5% !important;
+    font-size: 1rem;
+    color: $white-color;
+    font-weight: 600;
+    background: linear-gradient(to left, #ed1e79 0%, #662d8c 100%);
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    margin: 0 2% 0 0;
+    @media(max-width: 575.98px){
+        font-size: 15px;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px){
+        font-size: 17px;
+    }
+    &:hover{
+        color: $white-color;
+        text-decoration: none;
+    }
+}
+    		
+.white-btn{
+	width: auto;
+    padding: 1.5% 3.9%;
+    margin-bottom: 5% !important;
+    font-size: 1rem;
+    color: $purple-color;
+    font-weight: 600;
+    background-color: $white-color;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    margin: 0 2%;
+    @media(max-width: 575.98px){
+        font-size: 15px;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px){
+        font-size: 17px;
+    }
+    &:hover{
+        color: $purple-color;
+        text-decoration: none;
+    }
+}

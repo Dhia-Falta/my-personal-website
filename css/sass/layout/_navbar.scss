@@ -1,0 +1,51 @@
+.navbar{
+	background-color:#ffffff!important;
+	font-weight: bold;
+	padding: 2.1% 0;
+	box-shadow: 0 4px 2px -2px rgba(32,33,36,.28);
+	.navbar-brand{
+		position: relative;
+		img{
+		    position: absolute;
+		    top: -100px;
+    		width: 208px;
+		    padding: 9px;
+		    @media (max-width: 575.98px){
+			    top: -77px;
+    			width: 165px;
+			}
+		    @media (min-width: 576px) and (max-width: 767.98px){
+				top: -84px;
+		    	width: 175px;
+			}
+    		@media (min-width: 768px) and (max-width: 991.98px){
+				top: -95px;
+		    	width: 200px;
+			}
+		}
+	}
+	.navbar-nav{
+		.active{
+		    .nav-link {
+		    	color: $hvr-nav-color;
+		    	&:focus{
+			    	color: $hvr-nav-color;
+			    }
+		    }
+		}
+		.nav-link {
+			color: $nav-color;
+		    padding-right: 1rem;
+		    padding-left: 1rem;
+		    &:hover , &:active{
+		    	color: $hvr-nav-color;
+		    }
+		}
+	}
+	.navbar-collapse{
+		@media (max-width: 991.98px) {
+			margin-top: 3%;
+    		text-align: center;
+		}
+	}
+}
